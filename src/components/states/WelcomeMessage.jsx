@@ -33,8 +33,11 @@ const WelcomeMessage = props => {
 
   return (
     <>
-      <Center fontSize="7vw" fontWeight={600}>
-        Hi, Change++ !
+      <Center fontSize="6vw" fontWeight={600}>
+        Song Popularity Quiz
+      </Center>
+      <Center fontSize="2vw" fontWeight={600}>
+        Given 3 songs can you rank them from most to least popularity?
       </Center>
       <Center>
         <Button
@@ -51,8 +54,11 @@ const WelcomeMessage = props => {
           Play
         </Button>
       </Center>
-      <Center fontSize="7vw" fontWeight={600}>
+      <Center fontSize="5vw" fontWeight={600}>
         Are you ready ?
+      </Center>
+      <Center fontSize="1vw" fontWeight={600}>
+        Data gathered from Billboard's Hot 100 List
       </Center>
     </>
   );
